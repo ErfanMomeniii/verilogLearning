@@ -6,7 +6,7 @@ module TestBenchXOR(
     
         a=0;
         b=0;
-        #10
+        #100
         if (x.ans !==0)begin
             has_problem=1;
             $display("have problem on calc 0 0");
@@ -14,7 +14,7 @@ module TestBenchXOR(
        
         a=1;
         b=0;
-        #10
+        #100
         if (x.ans !==1)begin
             has_problem=1;
             $display("have problem on calc 1 0");
@@ -22,7 +22,7 @@ module TestBenchXOR(
        
         a=0;
         b=1;
-        #10
+        #100
         if (x.ans !==1)begin
             has_problem=1;
             $display("have problem on calc 0 1");
@@ -30,7 +30,7 @@ module TestBenchXOR(
             
         a=1;
         b=1;
-        #10
+        #100
         if (x.ans !==0)begin
             has_problem=1;
             $display("have problem on calc 1 1");
